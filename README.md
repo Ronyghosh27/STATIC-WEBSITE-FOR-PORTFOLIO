@@ -64,3 +64,7 @@ portfolio/
 💼 LinkedIn : linkedin.com/in/ronyghosh
 
 🐙 GitHub : github.com/Ronyghosh27
+
+*OUTPUT* : 
+
+<img width="1881" height="887" alt="Image" src="https://github.com/user-attachments/assets/65e50efb-61ef-41f0-bb17-b82c1306b7ae" />
