@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rony Ghosh — Software Engineer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div id="cur"></div>
+  <div id="cur-r"></div>
+
+  <!-- Scroll Progress Bar -->
+  <div id="progress"></div>
+
+  <!-- ── MOBILE MENU ─────────────────────────────────────── -->
+  <div class="mob-menu" id="mobMenu">
+    <button class="mob-close" id="mobClose">✕</button>
+    <a href="#about"      onclick="closeMob()">About</a>
+    <a href="#skills"     onclick="closeMob()">Skills</a>
+    <a href="#projects"   onclick="closeMob()">Projects</a>
+    <a href="#experience" onclick="closeMob()">Experience</a>
+    <a href="#contact"    onclick="closeMob()">Contact</a>
+  </div>
+
+  <!-- ── NAV ────────────────────────────────────────────── -->
+  <nav id="navbar">
+    <a href="#" class="nav-brand">Rony<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="mailto:ronyghosh825@gmail.com" class="nav-hire">Hire Me</a>
+    <button class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ── HERO ───────────────────────────────────────────── -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-lines"></div>
+
+    <div class="hero-left">
+      <div class="hero-tag">● Available for Opportunities</div>
+      <h1 class="hero-name">Rony<br><span class="accent">Ghosh</span></h1>
+      <p class="hero-title"><strong>Software Engineer</strong> — Full Stack Developer</p>
+      <p class="hero-summary">
+        Passionate CS undergraduate building full-stack, cloud-ready applications with Java,
+        JavaScript, React, Node.js, and modern web frameworks. Strong foundation in data
+        structures, algorithms, and scalable architecture.
+      </p>
+      <div class="hero-ctas">
+        <a href="#projects" class="btn-blue">View My Work</a>
+        <a href="#contact"  class="btn-outline">Get In Touch →</a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="hero-card">
+        <div class="hc-avatar">RG</div>
+        <div class="hc-name">Rony Ghosh</div>
+        <div class="hc-role">B.Tech CSE · Dayananda Sagar University</div>
+        <div class="hc-stats">
+          <div class="hc-stat"><div class="hc-stat-n">8.35</div><div class="hc-stat-l">CGPA</div></div>
+          <div class="hc-stat"><div class="hc-stat-n">2+</div><div class="hc-stat-l">Projects</div></div>
+          <div class="hc-stat"><div class="hc-stat-n">2</div><div class="hc-stat-l">Certifications</div></div>
+          <div class="hc-stat"><div class="hc-stat-n">5+</div><div class="hc-stat-l">Tech Skills</div></div>
+        </div>
+        <div class="hc-chips">
+          <span class="hc-chip">Java</span>
+          <span class="hc-chip">React.js</span>
+          <span class="hc-chip">Node.js</span>
+          <span class="hc-chip">Docker</span>
+          <span class="hc-chip">MongoDB</span>
+        </div>
+        <div class="hc-loc">
+          <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Bengaluru, India
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ──────────────────────────────────────────── -->
+  <section id="about">
+    <div class="sec-label">About Me</div>
+    <div class="about-grid">
+
+      <div class="reveal">
+        <div class="about-quote">
+          Building software that's <em>fast, scalable</em> and built to last.
+        </div>
+        <p class="about-body">
+          I'm a Computer Science undergraduate at Dayananda Sagar University, Bengaluru, with a
+          passion for building production-grade web applications. My work spans the full stack —
+          from pixel-perfect frontend interfaces to robust backend APIs and cloud deployments.
+        </p>
+        <p class="about-body">
+          During my internship at InternPe, I sharpened my frontend development skills by building
+          responsive, interactive web pages. I've since expanded into full-stack development, cloud
+          deployment, and database design.
+        </p>
+        <div class="about-details">
+          <div class="about-detail"><strong>Email</strong><span>ronyghosh825@gmail.com</span></div>
+          <div class="about-detail"><strong>Phone</strong><span>+91-6003123411</span></div>
+          <div class="about-detail"><strong>Location</strong><span>Bengaluru, India</span></div>
+          <div class="about-detail"><strong>Degree</strong><span>B.Tech — CSE</span></div>
+        </div>
+      </div>
+
+      <div class="about-visual reveal">
+        <div class="about-visual-card">
+          <div class="sec-label" style="margin-bottom:20px">Certifications</div>
+          <div class="cert-item">
+            <div class="cert-icon blue">🛡️</div>
+            <div>
+              <div class="cert-name">ServiceNow Certified System Administrator</div>
+              <div class="cert-org">CSA · ServiceNow</div>
+            </div>
+          </div>
+          <div class="cert-item">
+            <div class="cert-icon orange">🌐</div>
+            <div>
+              <div class="cert-name">Web Development Certified</div>
+              <div class="cert-org">Full Stack Web Development</div>
+            </div>
+          </div>
+          <div class="cert-item">
+            <div class="cert-icon blue">🤝</div>
+            <div>
+              <div class="cert-name">Teamwork & Interpersonal Skills</div>
+              <div class="cert-org">Professional Development Certification</div>
+            </div>
+          </div>
+          <div class="cert-item">
+            <div class="cert-icon orange">✍️</div>
+            <div>
+              <div class="cert-name">Technical Writing Workshop</div>
+              <div class="cert-org">Certificate of Participation</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ── SKILLS ─────────────────────────────────────────── -->
+  <section id="skills">
+    <div class="sec-label reveal">Technical Skills</div>
+    <h2 class="sec-title reveal">What I Work With</h2>
+    <p class="sec-sub reveal">Languages, frameworks, and tools I use to build and ship products.</p>
+    <div class="skills-grid">
+
+      <div class="skill-block reveal">
+        <div class="sk-icon">☕</div>
+        <div class="sk-title">Java</div>
+        <div class="sk-items">OOP · Data Structures · Algorithms · Problem Solving</div>
+        <div class="sk-pct">85%</div>
+        <div class="sk-bar-wrap"><div class="sk-bar" data-width="85"></div></div>
+      </div>
+
+      <div class="skill-block reveal">
+        <div class="sk-icon">⚛️</div>
+        <div class="sk-title">React.js</div>
+        <div class="sk-items">Component Architecture · Hooks · State Management · Responsive UI</div>
+        <div class="sk-pct">80%</div>
+        <div class="sk-bar-wrap"><div class="sk-bar" data-width="80"></div></div>
+      </div>
+
+      <div class="skill-block reveal">
+        <div class="sk-icon">🟢</div>
+        <div class="sk-title">Node.js & Express</div>
+        <div class="sk-items">REST APIs · Middleware · Authentication · Server-side Logic</div>
+        <div class="sk-pct">78%</div>
+        <div class="sk-bar-wrap"><div class="sk-bar" data-width="78"></div></div>
+      </div>
+
+      <div class="skill-block reveal">
+        <div class="sk-icon">🗄️</div>
+        <div class="sk-title">Databases</div>
+        <div class="sk-items">MongoDB · MySQL · SQL · Schema Design · Data Integrity</div>
+        <div class="sk-pct">75%</div>
+        <div class="sk-bar-wrap"><div class="sk-bar" data-width="75"></div></div>
+      </div>
+
+      <div class="skill-block reveal">
+        <div class="sk-icon">🌐</div>
+        <div class="sk-title">HTML · CSS · JavaScript</div>
+        <div class="sk-items">Responsive Design · Interactive UI · DOM Manipulation · Animations</div>
+        <div class="sk-pct">88%</div>
+        <div class="sk-bar-wrap"><div class="sk-bar" data-width="88"></div></div>
+      </div>
+
+      <div class="skill-block reveal">
+        <div class="sk-icon">🐳</div>
+        <div class="sk-title">Tools & DevOps</div>
+        <div class="sk-items">Docker · GitHub · Git · Cloud Deployment · Netlify</div>
+        <div class="sk-pct">70%</div>
+        <div class="sk-bar-wrap"><div class="sk-bar" data-width="70"></div></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ───────────────────────────────────────── -->
+  <section id="projects">
+    <div class="sec-label reveal">Selected Work</div>
+    <h2 class="sec-title reveal">Projects</h2>
+    <p class="sec-sub reveal">Real-world applications I've designed, built, and deployed.</p>
+    <div class="projects-grid">
+
+      <!-- Project 1 -->
+      <div class="proj-card reveal">
+        <div class="proj-visual">
+          <div class="proj-visual-inner">🎬</div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-meta">
+            <span class="proj-tag">Full Stack · Featured</span>
+            <a href="https://ai-powered-video-platform.netlify.app/" target="_blank" class="proj-live">Live Site</a>
+            <span class="proj-year">2024</span>
+          </div>
+          <h3 class="proj-title">AI-Powered Education Video Translation Platform</h3>
+          <p class="proj-desc">
+            A cloud-ready platform for AI-driven video transcription and translation, enabling
+            multilingual accessibility for educational content. Built with React, Node.js, and
+            MongoDB for database efficiency. Deployed on Netlify with a cloud backend that handles
+            large video file processing smoothly and at scale.
+          </p>
+          <div class="proj-footer">
+            <div class="proj-stack">
+              <span class="stack-pill">React.js</span>
+              <span class="stack-pill">Node.js</span>
+              <span class="stack-pill">MongoDB</span>
+              <span class="stack-pill">Netlify</span>
+              <span class="stack-pill">AI APIs</span>
+            </div>
+            <a href="https://ai-powered-video-platform.netlify.app/" target="_blank" class="proj-gh">
+              <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              View Live
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="proj-card reveal">
+        <div class="proj-visual" style="background: linear-gradient(135deg, #f0faf4, #d1fae5);">
+          <div class="proj-visual-inner">🏥</div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-meta">
+            <span class="proj-tag">Backend · Database</span>
+            <span class="proj-year">2024</span>
+          </div>
+          <h3 class="proj-title">Hospital Management System</h3>
+          <p class="proj-desc">
+            An appointment booking and admin management platform built with Flask and MySQL.
+            Focused on robust database design, data integrity, and modular system architecture.
+            Optimized backend logic improved system usability and overall responsiveness.
+          </p>
+          <div class="proj-footer">
+            <div class="proj-stack">
+              <span class="stack-pill">Python</span>
+              <span class="stack-pill">Flask</span>
+              <span class="stack-pill">MySQL</span>
+              <span class="stack-pill">HTML/CSS</span>
+            </div>
+            <a href="https://github.com/Ronyghosh27" target="_blank" class="proj-gh">
+              <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── EXPERIENCE & EDUCATION ─────────────────────────── -->
+  <section id="experience">
+    <div class="sec-label reveal">Background</div>
+    <h2 class="sec-title reveal">Experience &amp; Education</h2>
+    <p class="sec-sub reveal">Where I've worked and studied — building skills at every step.</p>
+    <div class="exp-grid">
+
+      <!-- Work Experience -->
+      <div class="reveal">
+        <div class="sec-label" style="margin-bottom:28px">Work Experience</div>
+        <div class="exp-timeline">
+          <div class="exp-item">
+            <div class="exp-dot"></div>
+            <div class="exp-period">2024</div>
+            <div class="exp-role">Web Development Intern</div>
+            <div class="exp-org">InternPe</div>
+            <ul class="exp-bullets">
+              <li>Developed responsive web pages using HTML, CSS, and JavaScript.</li>
+              <li>Created interactive forms and dynamic UI elements for improved user experience.</li>
+              <li>Resolved real-world coding issues, strengthening debugging and problem-solving skills.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Education -->
+      <div class="reveal">
+        <div class="sec-label" style="margin-bottom:28px">Education</div>
+        <div class="edu-cards">
+          <div class="edu-card">
+            <div class="edu-icon grad">🎓</div>
+            <div>
+              <div class="edu-deg">B.Tech — Computer Science &amp; Engineering</div>
+              <div class="edu-inst">Dayananda Sagar University, Bengaluru</div>
+              <span class="edu-score">⭐ CGPA: 8.35</span>
+            </div>
+          </div>
+          <div class="edu-card">
+            <div class="edu-icon hs">📘</div>
+            <div>
+              <div class="edu-deg">Senior Secondary (XII)</div>
+              <div class="edu-inst">Sishu Pathshala Higher Secondary School, Assam</div>
+              <span class="edu-score">⭐ Score: 8.9</span>
+            </div>
+          </div>
+          <div class="edu-card">
+            <div class="edu-icon sec">📗</div>
+            <div>
+              <div class="edu-deg">Secondary (X)</div>
+              <div class="edu-inst">Happy Convent School, Dhubri</div>
+              <span class="edu-score">⭐ Score: 9.1</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── ACHIEVEMENTS ───────────────────────────────────── -->
+  <section id="achievements">
+    <div class="sec-label reveal">Recognition</div>
+    <h2 class="sec-title reveal">Achievements</h2>
+    <p class="sec-sub reveal">Recognitions and milestones along the journey.</p>
+    <div class="ach-grid">
+      <div class="ach-card reveal">
+        <div class="ach-ico">🛡️</div>
+        <div class="ach-title">ServiceNow CSA Certified</div>
+        <div class="ach-desc">Earned the ServiceNow Certified System Administrator credential — a globally recognized professional certification.</div>
+      </div>
+      <div class="ach-card reveal">
+        <div class="ach-ico">🤝</div>
+        <div class="ach-title">Teamwork & Interpersonal Skills</div>
+        <div class="ach-desc">Awarded certification for demonstrated excellence in collaborative teamwork and interpersonal communication.</div>
+      </div>
+      <div class="ach-card reveal">
+        <div class="ach-ico">✍️</div>
+        <div class="ach-title">Technical Writing Workshop</div>
+        <div class="ach-desc">Certificate of Participation for one-day intensive workshop on professional technical writing and documentation practices.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ────────────────────────────────────────── -->
+  <section id="contact">
+    <div class="contact-inner">
+      <div class="sec-label reveal">Get In Touch</div>
+      <h2 class="sec-title reveal">Let's Work Together</h2>
+      <p class="contact-tagline reveal">
+        I'm currently open to internship and full-time software engineering opportunities.
+        Whether you have a project or just want to connect — reach out!
+      </p>
+      <a href="mailto:ronyghosh825@gmail.com" class="contact-email reveal">ronyghosh825@gmail.com</a>
+      <p class="contact-phone reveal">+91-6003123411</p>
+      <div class="contact-socials reveal">
+        <a href="https://www.linkedin.com/in/ronyghosh/" target="_blank" class="soc">
+          <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/Ronyghosh27" target="_blank" class="soc">
+          <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          GitHub
+        </a>
+        <a href="https://ai-powered-video-platform.netlify.app/" target="_blank" class="soc">
+          <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          Live Project
+        </a>
+        <a href="mailto:ronyghosh825@gmail.com" class="soc">
+          <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Email Me
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ─────────────────────────────────────────── -->
+  <footer>
+    <span>© 2026 Rony Ghosh · All rights reserved</span>
+    <span>Built with HTML, CSS &amp; JavaScript</span>
+    <a href="#">Back to top ↑</a>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
