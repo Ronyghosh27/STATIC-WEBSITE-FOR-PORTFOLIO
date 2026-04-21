@@ -68,3 +68,15 @@ portfolio/
 *OUTPUT* : 
 
 <img width="1881" height="887" alt="Image" src="https://github.com/user-attachments/assets/65e50efb-61ef-41f0-bb17-b82c1306b7ae" />
+
+<img width="1896" height="902" alt="Image" src="https://github.com/user-attachments/assets/da5bd25a-15db-4730-afe2-7b68fd887cfd" />
+
+<img width="1919" height="902" alt="Image" src="https://github.com/user-attachments/assets/5797d6f2-0569-44ab-87b0-fc7e54e1e0c6" />
+
+<img width="1896" height="916" alt="Image" src="https://github.com/user-attachments/assets/2a959b5b-171e-4f79-8021-53e8424013ab" />
+
+<img width="1896" height="918" alt="Image" src="https://github.com/user-attachments/assets/bcffe53a-d5ca-4a86-a7dd-38f68afae0c8" />
+
+<img width="1900" height="852" alt="Image" src="https://github.com/user-attachments/assets/8e4f8d56-5e88-45e3-84b7-e69be18b671d" />
+
+<img width="1898" height="914" alt="Image" src="https://github.com/user-attachments/assets/9ccc7420-c3a9-49ee-a7f4-68ba2d4180a6" />
